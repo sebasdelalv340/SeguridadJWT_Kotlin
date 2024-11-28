@@ -2,6 +2,14 @@
 
 Para poder ejecutar los siguientes comandos se recomienda usar una consola de comandos de git (un Git Bash)
 
+Hay que moverse a la carpeta certs, que está en la ruta `/src/main/resources/certs`
+
+```bash
+cd src/main/resources/certs
+```
+
+Una vez en la carpeta certs, ejecutar los comandos
+
 ```bash
 # Para crear un par de RSA keys  
 openssl genrsa -out keypair.pem 2048
