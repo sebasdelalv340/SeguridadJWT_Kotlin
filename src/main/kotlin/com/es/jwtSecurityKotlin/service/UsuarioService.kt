@@ -54,7 +54,6 @@ class UsuarioService : UserDetailsService {
         // Guardamos el newUsuario en la base de datos... igual que siempre
 
 
-
         // Devolvemos el Usuario insertado en la BDD
         return null // Cambiar null por el usuario
 
